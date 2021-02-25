@@ -1,0 +1,53 @@
+{
+    "name": "niktechnet/ln-bg",
+    "type": "flarum-extension",
+    "description": "Bulgarian language pack.",
+    "keywords": [
+        "locale", 
+        "niktechnet",
+        "bulgarian-lang"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolay Ivanov",
+            "email": "niktechnet@gmail.com",
+            "role": "Translator"
+        }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.15"
+    },
+    "suggest": {
+        "flarum/flarum": "Flarum",
+        "niktechnet/lang-bulgarian": "Flarum Extensions Bulgarian language pack."
+    },
+    "autoload": {
+        "psr-4": {
+          "Niktechnet\\LnBg\\": "locale/"
+        }
+      },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        },
+        "flarum-extension": {
+            "title": "Български",
+            "category": "language",
+            "info": {
+                "donate": "https://flarum.org/donate/",
+                "website": "https://flarum.org",
+                "support": "https://discuss.flarum.org"
+            },
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "bg",
+            "title": "Български"
+        }
+    }
+}
