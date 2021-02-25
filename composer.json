@@ -17,10 +17,6 @@
     "require": {
         "flarum/core": "^0.1.0-beta.15"
     },
-    "suggest": {
-        "flarum/flarum": "Flarum",
-        "niktechnet/ln-bg": "Flarum Extensions Bulgarian language pack."
-    },
     "autoload": {
         "psr-4": {
           "Niktechnet\\LnBg\\": "locale/"
