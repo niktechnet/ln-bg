@@ -19,7 +19,7 @@
     },
     "suggest": {
         "flarum/flarum": "Flarum",
-        "niktechnet/lang-bulgarian": "Flarum Extensions Bulgarian language pack."
+        "niktechnet/ln-bg": "Flarum Extensions Bulgarian language pack."
     },
     "autoload": {
         "psr-4": {
