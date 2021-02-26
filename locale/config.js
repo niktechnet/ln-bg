@@ -12,7 +12,6 @@ function relativeTimeWithPlural(number, withoutSuffix, key) {
   }
   return `${number} ${plural(format[key], +number)}`
 }
-
 dayjs.locale({
   name: 'bg',
   weekdays: 'неделя_понеделник_вторник_сряда_четвъртък_петък_събота'.split('_'),
