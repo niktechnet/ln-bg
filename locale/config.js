@@ -1,3 +1,18 @@
+function plural(word, num) {
+  const forms = word.split('_')
+  return num % 10 === 1 ? forms[0] : forms[1] 
+}
+function relativeTimeWithPlural(number, withoutSuffix, key) {
+  const format = {
+    mm: withoutSuffix ? 'минута_минути' : 'минута_минути',
+    hh: 'час_часа',
+    dd: 'ден_дни',
+    MM: 'месец_месеца',
+    yy: 'година_години'
+  }
+  return `${number} ${plural(format[key], +number)}`
+}
+
 dayjs.locale({
   name: 'bg',
   weekdays: 'неделя_понеделник_вторник_сряда_четвъртък_петък_събота'.split('_'),
@@ -5,6 +20,7 @@ dayjs.locale({
   weekdaysMin: 'нд_пн_вт_ср_чт_пт_сб'.split('_'),
   months: 'януари_февруари_март_април_май_юни_юли_август_септември_октомври_ноември_декември'.split('_'),
   monthsShort: 'ян_февр_март_апр_май_юни_юли_авг_септ_окт_ноем_дек'.split('_'),
+  ordinal: n => `${n}.`,
   weekStart: 1,
     formats: {
       LT: 'HH:mm',
@@ -18,16 +34,15 @@ dayjs.locale({
       future: 'след %s',
       past: 'преди %s',
       s: 'няколко секунди',
-      m: 'минута',
-      mm: 'минути',
+      m: relativeTimeWithPlural,
+      mm: relativeTimeWithPlural,
       h: 'час',
-      hh: 'часа',
+      hh: relativeTimeWithPlural,
       d: 'ден',
-      dd: 'дни',
+      dd: relativeTimeWithPlural,
       M: 'месец',
-      MM: 'месеца',
+      MM: relativeTimeWithPlural,
       y: 'година',
-      yy: 'години'
+      yy: relativeTimeWithPlural
     },
-    ordinal: '%dº'
-}, null, false);
+});
