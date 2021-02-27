@@ -1,6 +1,6 @@
 function plural(word, num) {
   const forms = word.split('_')
-  return num % 10 === 1 ? forms[0] : forms[1] 
+  return num % 10 === 1 && num % 100 !== 11 ? forms[0] : forms[1] 
 }
 function relativeTimeWithPlural(number, withoutSuffix, key) {
   const format = {
