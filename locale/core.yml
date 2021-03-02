@@ -226,56 +226,56 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Въведената парола е неправилна. 
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: Email за нулиране на парола
+      text: "Щракнете върху бутона по-долу и проверете имейла си за линк, за да промените паролата си."
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
-      preview_tooltip: Preview
+      close_tooltip: Затвори
+      exit_full_screen_tooltip: Излезте от цял екран
+      full_screen_tooltip: Цял екран
+      minimize_tooltip: Минимизиране
+      preview_tooltip: Визуализация
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: Напишете публикация...
+      discard_confirmation: "Не сте публикували дискусията си. Искате ли да я отхвърлите?"
+      submit_button: Публикуване
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: Заглавие на дискусията
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      edited_message: Your edit was made.
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Не сте запазили промените си. Искате ли да ги отхвърлите?"
+      edited_message: Вашата редакция е направена.
+      post_link: "Публикуване #{number} в {discussion}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
+      discard_confirmation: "Не сте публикували своя отговор. Искате ли да го отхвърлите?"
+      posted_message: Вашият отговор беше публикуван.
+      submit_button: Отговори
       view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: Без отговор
+      cannot_reply_text: Нямате разрешение да отговорите на тази дискусия.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "Наистина ли искате да изтриете тази дискусия?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: Влезте за отг.
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -290,15 +290,15 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: "Акт. на потр."
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: Групи
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Задай нова парола
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: "Ред. на потребител"
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -306,31 +306,31 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: "Изпратихме Ви имейл, съдържащ връзка за нулиране на паролата. Проверете папката си със спам, ако не я получите в рамките на следващите минута или две."
+      not_found_message: "Няма потребител, регистриран с този имейл адрес."
+      submit_button: "Възст. на парола"
+      text: Въведете вашия имейл адрес и ще ви изпратим линк за нулиране на паролата.
+      title: Забравена парола
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      admin_button: Администрация
+      back_to_index_tooltip: Kъм дискусионния списък
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: Профил
+      search_placeholder: Търсене във форума
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: "Без създ. на дискусия"
+      mark_all_as_read_confirmation: "Наистина ли искате да маркирате всички дискусии като прочетени?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       meta_title_text: => core.ref.all_discussions
-      refresh_tooltip: Refresh
+      refresh_tooltip: Обнови
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -343,21 +343,21 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Забравена парола?"
+      invalid_login_message: Данните ви за вход са неправилни.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Помни ме
+      sign_up_text: "Нямате акаунт? <a>Регистрирайте се</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: "Потр. име или имейл"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} промени заглавието"
+      empty_text: Няма известия
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      mark_as_read_tooltip: Mark as Read
+      mark_as_read_tooltip: "Маркирай, като прочетено"
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
@@ -365,111 +365,111 @@ core:
     post:
       edited_text: Редактирана
       edited_tooltip: "{username} редактира {ago}"
-      number_tooltip: "Post #{number}"
+      number_tooltip: "Публ. #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this post forever? This action cannot be undone."
+      delete_confirmation: "Наистина ли искате да изтриете тази публикация завинаги? Това действие не може да бъде отменено."
       delete_forever_button: => core.ref.delete_forever
       edit_button: => core.ref.edit
-      hide_confirmation: "Are you sure you want to delete this post?"
+      hide_confirmation: "Наистина ли искате да изтриете тази публикация?"
       restore_button: => core.ref.restore
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      now_link: Сега
+      original_post_link: "Ориг. публикация"
+      unread_text: "{count} непрочетено"
+      viewing_text: "{index} от {count} публикация|{index} от {count} публикации"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'Старото заглавие беше: "{old}"'
+      discussion_renamed_text: "{username} промени заглавието на {new}."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} преди"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
       submit_button: => core.ref.rename
-      title: Rename Discussion
+      title: Преименувай дискусия
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Търсене във всички дискусии за "{query}"'
       discussions_heading: => core.ref.discussions
       users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Акаунт
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      notify_discussion_renamed_label: "Някой преименува дискусия, която започнах"
+      privacy_disclose_online_label: "Другите да виждат, когато съм онлайн"
+      privacy_heading: Поверителност
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Вече имате акаунт? <a>Вход</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Здравей, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_button: Качване
+      avatar_upload_tooltip: Качете нов аватар
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
-      posts_empty_text: It looks like there are no posts here.
+      joined_date_text: "Присъединил се {ago}"
+      online_text: Онлайн
+      posts_empty_text: "Изглежда, че тук няма публикации."
       posts_link: => core.ref.posts
       posts_load_more_button: => core.ref.load_more
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Контроли
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? The user's posts will NOT be deleted."
-      delete_error_message: "Deletion of user <i>{username} ({email})</i> failed"
-      delete_success_message: "User <i>{username} ({email})</i> was deleted"
+      delete_confirmation: "Наистина ли искате да изтриете този потребител? Публикациите на потребителя НЯМА да бъдат изтрити."
+      delete_error_message: "Изтриването на потребител <i>{username} ({email})</i> неуспешно"
+      delete_success_message: "Потребител <i>{username} ({email})</i> беше изтрит"
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Отново имейл за потв.
+      sent_message: Изпрати
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Скрити
 
     # These translations are displayed as error messages.
     error:
-      dependent_extensions_message: "Cannot disable {extension} until the following dependent extensions are disabled: {extensions}"
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      missing_dependencies_message: "Cannot enable {extension} until the following dependencies are enabled: {extensions}"
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      dependent_extensions_message: "Не може да се деактивира {extension} докато не бъдат деактивирани следните зависими разширения: {extensions}"
+      generic_message: "Ами сега! Нещо се обърка. Моля, презаредете страницата и опитайте отново."
+      missing_dependencies_message: "Не може да се активира {extension} докато не се активират следните зависимости: {extensions}"
+      not_found_message: Заявеният ресурс не е намерен.
+      permission_denied_message: Нямате разрешение за това.
+      rate_limit_exceeded_message: "Прекалено бързо. Моля, опитайте отново след няколко секунди."
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -479,21 +479,21 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, и {third}"
+      two_text: "{first} и {second}"
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[изтрит]"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: "Този сайт се гледа най-добре в съвременен браузър с активиран JavaScript."
+      load_error_message: "Нещо се обърка при опит за зареждане на пълната версия на този сайт. Опитайте да презаредите тази страница, за да коригирате грешката."
+      loading_text: Зарежда се...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -502,14 +502,14 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      csrf_token_mismatch: You have been inactive for too long.
-      csrf_token_mismatch_return_link: Go back, to try again
-      invalid_confirmation_token: This confirmation link has already been used or is invalid.
-      not_authenticated: You do not have permission to access this page. Try again after logging in.
-      not_found: The page you requested could not be found.
-      not_found_return_link: "Return to {forum}"
-      permission_denied: You do not have permission to access this page.
-      unknown: An error occurred while trying to load this page.
+      csrf_token_mismatch: Вие сте били неактивни твърде дълго.
+      csrf_token_mismatch_return_link: "Върнете се, за да опитате отново"
+      invalid_confirmation_token: Тази връзка за потвърждение вече е използвана или е невалидна.
+      not_authenticated: "Нямате разрешение за достъп до тази страница. Опитайте отново, след като влезете."
+      not_found: "Страницата, която поискахте, не можа да бъде намерена."
+      not_found_return_link: "Върни се на {forum}"
+      permission_denied: Нямате разрешение за достъп до тази страница.
+      unknown: Възникна грешка при опит за зареждане на тази страница. 
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -520,73 +520,73 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "Наистина ли искате да излезете от {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Потвърдете новата парола
+      new_password_label: Нова парола
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Потребителското име може да съдържа само букви, цифри и тирета."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Активирайте новия си акаунт
       body: |
-        Hey {username}!
+        Хей {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Някой се е регистрирал във {forum} с този имейл адрес.
 
-        If this was you, simply click the following link and your account will be activated:
+        Ако това бяхте вие, просто щракнете върху следната връзка и акаунтът ви ще бъде активиран:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Ако не сте се регистрирали, моля, игнорирайте този имейл.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Потвърдете новия си имейл адрес
       body: |
-        Hey {username}!
+        Хей {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Някой е променил имейл адреса си на {forum} на този.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Ако това бяхте вие, просто щракнете върху следната връзка и вашият имейл ще бъде потвърден:
         {url}
 
-        If this was not you, please ignore this email.
+        Ако това не сте били вие, моля, игнорирайте този имейл.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        Хей {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Някой е изпратил заявка за забравена парола за вашия акаунт на {forum}.
 
-        If this was you, click the following link to reset your password:
+        Ако това сте били вие, щракнете върху следната връзка, за да нулирате паролата си:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Ако не искате да промените паролата си, просто игнорирайте този имейл и нищо няма да се случи.
 
     # These translations are used when testing mailing configuration
     send_test:
       subject: Flarum Email Test
       body: |
-        Hey {username}!
+        Хей {username}!
 
-        This is a test email to confirm that your Flarum email configuration is working properly.
+        Това е тестов имейл, за да потвърдите, че вашата имейл конфигурация на Flarum работи правилно.
 
-        If this was you, this email means that your configuration works!
+        Ако това бяхте вие, този имейл означава, че вашата конфигурация работи!
 
-        If this was not you, please ignore this email.
+        Ако това не сте били вие, моля, игнорирайте този имейл.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -594,48 +594,48 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
+    all_discussions: Всички дискусии
+    change_email: Смени Email
+    change_password: Смени парола
+    color: Цвят                                 # Referenced by flarum-tags.yml
+    confirm_password: Потвърди паролата
+    confirmation_email_sent: "Изпратихме имейл за потвърждение на {email}. Ако не пристигне скоро, проверете папката си с нежелана поща."
+    custom_footer_text: "Добавете HTML, който да се показва в най-долната част на страницата."
     custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_text: "Добавете HTML, който да се показва в самия връх на страницата, над заглавката на Flarum."
     custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
+    delete: Изтрий
+    delete_forever: Изтрий завинаги
+    discussions: Дискусии                     # Referenced by flarum-statistics.yml
+    edit: Редактирай
     email: Email
     icon: Icon
-    icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix."
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    icon_text: "Въведете името на който и да е <a>FontAwesome</a> icon class, <em>включително</em><code>fas fa-</code> префикса."
+    load_more: Зареди още
+    log_in: Вход
+    log_out: Изход
+    mark_all_as_read: "Маркирай, като пточетено"
+    next_page: Следваща страница
+    notifications: Известия
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    previous_page: Previous Page
-    remove: Remove
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    users: Users                                 # Referenced by flarum-statistics.yml
-    view: View
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    password: Парола
+    posts: Публикации                                 # Referenced by flarum-statistics.yml
+    previous_page: Предишна страница
+    remove: Премахни
+    rename: Преименувай
+    reply: Отговор                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Променете паролата си
+    restore: Възстанови
+    save_changes: Запази промените                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Настройки
+    sign_up: Регистрация
+    some_others: "{count} друг|{count} други"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Започни дискусия
+    username: "Потр. име"
+    users: Потребители                                 # Referenced by flarum-statistics.yml
+    view: Прегледай
+    write_a_reply: Напиши отговор...
+    you: Вие                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -645,9 +645,9 @@ core:
   group:
     admin: Admin
     admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
+    guest: Гост
+    guests: Гости
+    member: Потребител
+    members: Потребители
     mod: Mod
     mods: Mods
