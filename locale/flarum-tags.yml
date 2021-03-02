@@ -60,50 +60,50 @@ flarum-tags:
 
     # These translations are displayed on the page that lists all tags.
     all_tags:
-      meta_description_text: All Tags
+      meta_description_text: Всички тагове
       meta_title_text: => flarum-tags.ref.tags
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "Изберете основен таг|Изберете {count} основни тага"
+      choose_secondary_placeholder: "Изберете повече от 1 таг|Изберете повече от {count} тага"
+      edit_title: "Редактирай тагове за {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Изберете тагове за вашата дискусия 
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Избери тагове
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: Редактирай тагове
 
     header:
-      back_to_tags_tooltip: Back to Tag List
+      back_to_tags_tooltip: Върни се към списъка с тагове
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Още...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: Без тагове
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      added_tags_text: "{username} added the {tagsAdded}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_and_removed_tags_text: "{username} добави {tagsAdded} и премахна {tagsRemoved}."
+      added_tags_text: "{username} добави {tagsAdded}."
+      removed_tags_text: "{username} премахна {tagsRemoved}."
+      tags_text: "{tags} таг|{tags} тага"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "All discussions with the {tag} tag"
+      meta_description_text: "Всички дискусии с таг {tag}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: Изтрито
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -111,5 +111,5 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    name: Name
-    tags: Tags
+    name: Име
+    tags: Тагове
