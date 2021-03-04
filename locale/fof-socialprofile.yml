@@ -1,0 +1,10 @@
+fof-socialprofile:
+  forum:
+    edit:
+      edit: Редактирай
+      add: Добави
+      url: URL
+      submit: Запази
+      delete: Изтрий
+      deletetitle: Изтрий бутон
+      save_disabled_fetching_favicons: Извлича се една или повече икони. Моля Изчакайте.

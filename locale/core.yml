@@ -9,61 +9,61 @@ core:
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_footer_heading: Custom Footer
+      colored_header_label: Цветeн Header
+      colors_heading: Цветове
+      colors_text: "Изберете два цвята, с които да тематизирате форума си. Първият ще се използва като подчертаващ цвят, докато вторият ще се използва за стилизиране на фонови елементи."
+      custom_footer_heading: Потребителски Footer
       custom_footer_text: => core.ref.custom_footer_text
-      custom_header_heading: Custom Header
+      custom_header_heading: Потребителски Header
       custom_header_text: => core.ref.custom_header_text
-      custom_styles_heading: Custom Styles
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      description: "Customize your forum's colors, logos, and other variables."
-      edit_css_button: Edit Custom CSS
+      custom_styles_heading: Потребителски Styles
+      custom_styles_text: "Персонализирайте външния вид на вашия форум, като добавите собствен LESS/CSS код, който да се приложи върху стиловете по подразбиране на Flarum."
+      dark_mode_label: Тъмен режим
+      description: "Персонализирайте цветовете, логата и други променливи на Вашия форум."
+      edit_css_button: Редактиране на потребителски CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
-      enter_hex_message: Please enter a hexadecimal color code.
+      enter_hex_message: "Моля, въведете шестнадесетичен цветен код."
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
-      logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      favicon_text: "Качете изображение, което да се показва, като иконата за пряк път на форума."
+      logo_heading: Лого
+      logo_text: "Качете изображение, което да се показва вместо заглавието на форума."
       submit_button: => core.ref.save_changes
-      title: Appearance
+      title: Външен вид
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      description: "Set your forum title, language, and other basic settings."
-      display_name_heading: User Display Name
-      display_name_text: Select the driver that should be used for users' display names. By default, the username is shown.
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      default_language_heading: Език по подразбиране
+      description: "Задайте заглавието на вашия форум, език и други основни настройки."
+      display_name_heading: Показвано потребителско име
+      display_name_text: "Изберете драйвера, който трябва да се използва за показваните имена на потребителите."
+      forum_description_heading: Описание на форума
+      forum_description_text: "Въведете кратко или две изречения, които описват вашата общност. Това ще се появи в мета маркера и ще се покаже в търсачките."
+      forum_title_heading: Заглавие на форума
+      home_page_heading: Начална страница
+      home_page_text: Изберете страницата, която потребителите първо ще видят, когато посетят Вашия форум.
+      saved_message: Промените Ви бяха запазени.
+      show_language_selector_label: Показване на селектора на език
       slug_driver_heading: "Slug Driver: {model}"
-      slug_driver_text: Select a driver to be used for slugging this model.
+      slug_driver_text: Изберете драйвер, който да се използва за slugging на този модел.
       submit_button: => core.ref.save_changes
-      title: Basics
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      title: Основни
+      welcome_banner_heading: Банер за добре дошли
+      welcome_banner_text: "Конфигурирайте текста, който се показва в банера на страницата Всички дискусии. Използвайте това, за да посрещнете гостите във вашия форум."
 
     # These translations are used in the Dashboard page.
     dashboard:
-      clear_cache_button: Clear Cache
-      description: Your forum at a glance.
-      title: Dashboard
-      tools_button: Tools
+      clear_cache_button: Изчистване на кеша
+      description: Вашият форум с един поглед.
+      title: Табло за управление
+      tools_button: Инструменти
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Персонализирайте външния вид на вашия форум, като добавите свой собствен LESS/CSS код, който да се приложи вурху този, който е <a>по подразбиране за Flarum</a>."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: Редактиране на потребителски CSS
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
@@ -74,16 +74,16 @@ core:
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: => core.ref.color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      hide_label: Hide on forum
+      delete_button: "Изтр. на група"
+      delete_confirmation: "Наистина ли искате да изтриете тази група? Членовете на групата НЯМА да бъдат изтрити."
+      hide_label: Скриване във форума
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      name_label: Име
+      plural_placeholder: Множествено (напр. Модератори)
+      singular_placeholder: Единствено число (напр. Модератор)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Създаване на група
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
@@ -93,57 +93,57 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      addresses_heading: Addresses
-      description: "Configure the driver, settings and addresses your forum will use to send email."
-      driver_heading: Choose a Driver
-      driver_label: Driver
-      from_label: Sender
-      mail_encryption_label: Encryption
-      mail_host_label: Host
-      mail_mailgun_domain_label: Domain
-      mail_mailgun_region_label: Region
-      mail_mailgun_secret_label: Secret key
+      addresses_heading: Адреси
+      description: "Конфигурирайте драйвера, настройките и адресите, които вашият форум ще използва за изпращане на имейл."
+      driver_heading: Изберете драйвер
+      driver_label: Драйвер
+      from_label: Подател
+      mail_encryption_label: Шифроване
+      mail_host_label: Хост
+      mail_mailgun_domain_label: Домейн
+      mail_mailgun_region_label: Регион
+      mail_mailgun_secret_label: Секретен ключ
       mail_password_label: => core.ref.password
-      mail_port_label: Port
+      mail_port_label: Порт
       mail_username_label: => core.ref.username
-      mailgun_heading: Mailgun Settings
-      not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      send_test_mail_button: Send
-      send_test_mail_heading: Send Test Mail
-      send_test_mail_success: "Test mail sent successfully!"
-      send_test_mail_text: "This will send an email using the above configuration to your email, {email}."
-      smtp_heading: SMTP Settings
+      mailgun_heading: Настройки на Mailgun
+      not_sending_message: "Flarum в момента не изпраща имейли. Това може да се дължи на избрания драйвер или грешки в неговата конфигурация."
+      send_test_mail_button: Изпрати
+      send_test_mail_heading: Изпрати тестов Mail
+      send_test_mail_success: "Тестов mail е изпратен успешно!"
+      send_test_mail_text: "Това ще изпрати имейл, използвайки горната конфигурация, на вашия имейл, {email}."
+      smtp_heading: SMTP настройки
       submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
-      confirm_uninstall: Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?
-      disabled: Disabled
-      enabled: Enabled
-      enable_to_see: Enable the extension to view and change settings.
+      confirm_uninstall: "Деинсталирането ще премахне всички записи в базата данни, свързани с разширението. Наистина ли искате да продължите?"
+      disabled: Деактивирано
+      enabled: Активирано
+      enable_to_see: Активирайте разширението за преглед и промяна на настройките
       info_links:
-        discuss: Discuss
-        documentation: Documentation
-        donate: Donate
+        discuss: Обсъдете
+        documentation: Документация
+        donate: Дарение
         source: Source
-        support: Support
-        website: Website
-      no_permissions: This extension has no permissions.
-      no_settings: This extension has no settings.
-      open_modal: Open Settings
-      permissions_title: Permissions
-      saved_message: Your changes were saved.
-      uninstall_button: Uninstall
+        support: Поддръжка
+        website: Уебсайт
+      no_permissions: Това разширение няма разрешения.
+      no_settings: Това разширение няма настройки.
+      open_modal: Отворете Настройки
+      permissions_title: Разрешения
+      saved_message: Промените Ви бяха запазени.
+      uninstall_button: Деинсталиране
 
     # These translations are used in the secondary header.
     header:
-      get_help: Get Help
+      get_help: Получи помощ
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Моля изчакайте...
 
     # These translations are used in the navigation bar.
     nav:
@@ -152,62 +152,62 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Authentication
-        core: Core Configuration
-        discussion: Discussion
-        feature: Features
-        formatting: Formatting
-        language: Languages
-        moderation: Moderation
-        other: Other Extensions
-        theme: Themes
+        authentication: Удостоверяване
+        core: Конфигурация на ядрото
+        discussion: Дискусия
+        feature: Екстри
+        formatting: Форматиране
+        language: Езици
+        moderation: Модерация
+        other: Други разширения
+        theme: Теми
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
       email_title: => core.admin.email.description
       permissions_button: => core.admin.permissions.title
       permissions_title: => core.admin.permissions.description
-      search_placeholder: Search Extensions
+      search_placeholder: Търси разширения
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Allow post editing
-      allow_renaming_label: Allow renaming
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      delete_posts_label: Delete posts
-      description: Configure who can see and do what.
-      edit_posts_label: Edit posts
-      edit_users_label: Edit users
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      post_without_throttle_label: Reply multiple times without waiting
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      title: Permissions
-      view_discussions_label: View discussions
-      view_hidden_groups_label: View hidden group badges
-      view_last_seen_at_label: Always view user last seen time
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      allow_post_editing_label: Редактиране на публикации
+      allow_renaming_label: Преименуване на публикации
+      create_heading: Създаване
+      delete_discussions_forever_label: Изтриване на дискусиите завинаги
+      delete_discussions_label: Изтриване на дискусии
+      delete_posts_forever_label: Изтриване на публикации завинаги
+      delete_posts_label: Изтриване на публикации
+      description: "Конфигурирайте кой какво може да вижда и да прави.."
+      edit_posts_label: Редактиране на публикации
+      edit_users_label: Редактиране на потребители
+      global_heading: Глобално
+      moderate_heading: Модерирано
+      new_group_button: Нова група
+      participate_heading: Участие
+      post_without_throttle_label: "Отговорете няколко пъти, без да чакате"
+      read_heading: Четене
+      rename_discussions_label: Преименуване на дискусии
+      reply_to_discussions_label: Отговор в дискусии
+      sign_up_label: Регистрация
+      start_discussions_label: Започване на дискусии
+      title: Разрешения
+      view_discussions_label: Преглед на дискусии
+      view_hidden_groups_label: Преглед на скритите значки на групата
+      view_last_seen_at_label: Винаги преглеждайте потребителя видял последен път
+      view_post_ips_label: Преглед на IP адресите на публикациите
+      view_user_list_label: Преглед на потребителския списък
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: Безкрайно
+      allow_some_minutes_button: "За {count} минута|За {count} минути"
+      allow_ten_minutes_button: За 10 минути
+      allow_until_reply_button: До следващия отговор
+      everyone_button: Всички
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: Затворена
+      signup_open_button: Отворена
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -216,7 +216,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Choose an Image...
+      upload_button: Изберете изображение...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -610,7 +610,7 @@ core:
     edit: Редактирай
     email: Email
     icon: Icon
-    icon_text: "Въведете името на който и да е <a>FontAwesome</a> icon class, <em>включително</em><code>fas fa-</code> префикса."
+    icon_text: "Въведете името на който и да е <a>FontAwesome</a> icon class, <em>включително</em> <code>fas fa-</code> префикса."
     load_more: Зареди още
     log_in: Вход
     log_out: Изход
