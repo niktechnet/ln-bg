@@ -614,7 +614,7 @@ core:
     load_more: Зареди още
     log_in: Вход
     log_out: Изход
-    mark_all_as_read: "Маркирай, като пточетено"
+    mark_all_as_read: "Маркирай, като прочетено"
     next_page: Следваща страница
     notifications: Известия
     okay: OK                                     # Referenced by flarum-tags.yml
