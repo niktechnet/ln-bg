@@ -54,7 +54,7 @@ flarum-subscriptions:
     new_post:
       subject: "[New Post] {title}"
       body: |
-        Здравей, {recipient_display_name}!
+        Здравейте, {recipient_display_name}!
 
         {poster_display_name} направи публикация в дискусия, която следите: {title}.
 

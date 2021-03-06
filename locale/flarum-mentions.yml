@@ -41,9 +41,9 @@ flarum-mentions:
 
     # These translations are used in emails sent when a post is replied to
     post_mentioned:
-      subject: "{replier_display_name} отговори на публикацията ви в {title}"
+      subject: "{replier_display_name} отговори на публикацията Ви в {title}"
       body: |
-        Hey {recipient_display_name}!
+        Здравейте, {recipient_display_name}!
 
         {replier_display_name} Отговори на Вашата публикация (#{post_number}) в {title}.
 
@@ -57,7 +57,7 @@ flarum-mentions:
     user_mentioned:
       subject: "{mentioner_display_name} Ви спомена в {title}"
       body: |
-        Hey {recipient_display_name}!
+        Здравейте, {recipient_display_name}!
 
         {mentioner_display_name} Ви спомена в своя отговор в {title}.
 

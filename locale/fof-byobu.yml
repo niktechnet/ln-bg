@@ -78,25 +78,25 @@ fof-byobu:
             private_discussion_added: "[Private Discussion] {display_name} Ви добави в частна дискусия"
         body:
             private_discussion_created: |
-                Здравей, {recipient_display_name},
+                Здравейте, {recipient_display_name},
 
-                {actor_display_name} започна нова частна дискусия с вас като получател, озаглавена '{discussion_title}'.
+                {actor_display_name} започна нова частна дискусия с Вас като получател, озаглавена '{discussion_title}'.
 
                 Виж я тук:
                 {discussion_url}
 
                 Може да се наложи първо да влезете, преди да имате достъп до тази връзка. 
             private_discussion_replied: |
-                Здравей, {recipient_display_name},
+                Здравейте, {recipient_display_name},
 
-                {actor_display_name} публикува в частна дискусия с вас като получател, озаглавена '{discussion_title}'.
+                {actor_display_name} публикува в частна дискусия с Вас като получател, озаглавена '{discussion_title}'.
 
                 Виж я тук:
                 {post_url}
 
                 Може да се наложи първо да влезете, преди да имате достъп до тази връзка. 
             recipient_removed: |
-                Здравей, {recipient_display_name},
+                Здравейте, {recipient_display_name},
 
                 {actor_display_name} напусна частната дискусия '{discussion_title}'. Вече няма да може да преглежда съдържанието.
 
@@ -105,9 +105,9 @@ fof-byobu:
 
                 Може да се наложи първо да влезете, преди да имате достъп до тази връзка. 
             private_discussion_added: |
-                Здравей, {recipient_display_name},
+                Здравейте, {recipient_display_name},
 
-                {actor_display_name} ви добави към съществуваща частна дискусия, озаглавена '{discussion_title}'.
+                {actor_display_name} Ви добави към съществуваща частна дискусия, озаглавена '{discussion_title}'.
 
                 Виж я тук:
                 {discussion_url}
