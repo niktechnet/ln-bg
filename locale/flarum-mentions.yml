@@ -1,0 +1,69 @@
+flarum-mentions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (reply autocompletion function).
+    composer:
+      mention_tooltip: Споменете потребител или публикация
+      reply_to_post_text: "Отговори на #{number}"
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      others_text: => core.ref.some_others
+      post_mentioned_text: "{username} отговори на вашата публикация"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} Ви спомена"
+
+    # These translations are displayed beneath individual posts.
+    post:
+      mentioned_by_self_text: "{users} отговори на това."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} отговори на това."       # Can be pluralized to agree with the number of users!
+      others_text: => core.ref.some_others
+      quote_button: Цитат
+      reply_link: => core.ref.reply
+      you_text: => core.ref.you
+
+    # These translations are used in the Settings page.
+    settings:
+      notify_post_mentioned_label: Някой отговори на една от публикациите ми
+      notify_user_mentioned_label: Някой ме спомена в публикация
+
+    # These translations are used in the user profile page and profile popup.
+    user:
+      mentions_link: Споменавания
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is replied to
+    post_mentioned:
+      subject: "{replier_display_name} отговори на публикацията Ви в {title}"
+      body: |
+        Здравейте, {recipient_display_name}!
+
+        {replier_display_name} Отговори на Вашата публикация (#{post_number}) в {title}.
+
+        {url}
+
+        ---
+
+        {content}
+
+    # These translations are used in emails sent when a user is mentioned
+    user_mentioned:
+      subject: "{mentioner_display_name} Ви спомена в {title}"
+      body: |
+        Здравейте, {recipient_display_name}!
+
+        {mentioner_display_name} Ви спомена в своя отговор в {title}.
+
+        {url}
+
+        ---
+
+        {content}
+

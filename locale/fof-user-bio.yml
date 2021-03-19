@@ -1,0 +1,11 @@
+fof-user-bio:
+    admin:
+        permission:
+            view: Преглед на биография
+            editOwn: Редактиране на своята биография
+            editAny: Редактиране на всички биографии
+        setting:
+            bioLimit: Лимит на символите
+
+    forum:
+        userbioPlaceholder: Напиши нещо за себе си
