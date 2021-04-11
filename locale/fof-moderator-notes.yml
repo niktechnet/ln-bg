@@ -1,0 +1,26 @@
+fof-moderator-notes:
+  admin:
+    permissions:
+      createnotes: Създаване на бележки на модератора
+      viewnotes: Преглед на бележки на модератора
+      deletenotes: Изтриване на бележки на модератора
+  forum:
+    no_content_given: Празна бележка не е разрешена.
+    moderatorNotes:
+      created_text: "{username} създаде тази бележка на {date}"
+      add_button: Нова бележка
+      create-heading: Създайте нова бележка на модератора
+      dismiss_button: Готово
+      input_heading: Създай бележка за <strong>{username}</strong>, (поддържа се markdown)
+      noNotes: "Изглежда, че тук няма бележки."
+      submit_button: Запази бележка
+      delete: Изтриване
+      confirm: Наистина ли искате да изтриете тази бележка?
+
+    user:
+      notes: Бележки на модератора
+
+  api:
+    auto_note: "_Преминах към този потребител:_ reason"
+    auto_note_actor: "_Превключен на_ @username: reason"
+    no_reason_provided: Не е посочена причина

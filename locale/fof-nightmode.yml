@@ -1,0 +1,33 @@
+fof-nightmode:
+    ref:
+        auto: Автоматично (въз основа на опциите на браузъра или устройството)
+        light: Дневен режим
+        dark: Нощен режим
+
+    admin:
+        settings:
+            modal:
+                default_theme: Тема на форума по подразбиране
+                default_theme_helper: "Темата по подразбиране се задава автоматично за нови потребители, гости и тези, които нямат зададени предпочитания."
+                theme_auto: => fof-nightmode.ref.auto
+                theme_light: => fof-nightmode.ref.light
+                theme_dark: => fof-nightmode.ref.dark
+    forum:
+        day: => fof-nightmode.ref.light
+        night: => fof-nightmode.ref.dark
+
+        user:
+            settings:
+                heading: Тема
+                description: Изберете каква тема искате да използвате във форума.
+                description2: "Тази тема ще бъде свързана с вашия акаунт и се отнася за всички ваши устройства, освен ако не включите превключвателя по-долу за настройки на устройството."
+                device_specific_setting_checkbox: Използвайте по настройки на устройството
+                device_specific_setting_checkbox_tooltip: Вашият избор на тема ще бъде запазен поотделно за всяко от вашите устройства.
+                options:
+                    auto: => fof-nightmode.ref.auto
+                    day: => fof-nightmode.ref.light
+                    night: => fof-nightmode.ref.dark
+                option_descriptions:
+                    auto: "Вашата тема ще бъде избрана автоматично възоснова на настройките на вашия браузър или устройство. Например, ако имате активиран тъмен режим в iOS, форумите също ще бъдат тъмни."
+                    day: "Класическото преживяване, с което сте свикнали."
+                    night: "Ако предпочитате по-тъмните цветове!"

@@ -1,0 +1,108 @@
+validation:
+  accepted: "Полето :attribute трябва да бъде приет."
+  active_url: "Полето :attribute не е валиден URL адрес."
+  after: "Полето :attribute трябва да е дата след :date."
+  after_or_equal: "Полето :attribute трябва да е дата след или равна на :date."
+  alpha: "Полето :attribute може да съдържа само букви."
+  alpha_dash: "Полето :attribute може да съдържа само букви, цифри, тирета и долни черти."
+  alpha_num: "Полето :attribute може да съдържа само букви и цифри."
+  array: "Полето :attribute трябва да е масив."
+  before: "Полето :attribute трябва да е дата преди :date."
+  before_or_equal: "Полето :attribute трябва да е дата преди или равна на :date."
+  between:
+    numeric: "Значението :attribute трябва да бъде между :min и :max."
+    file: "Размерът на файла :attribute трябва да бъде между :min и :max килобайта."
+    string: "Низът :attribute трябва да бъде между :min и :max символи."
+    array: "Масивът :attribute трябва да има между :min и :max елементи."
+  boolean: "Полето :attribute трябва да е true или false."
+  confirmed: "В полето :attribute потвърждението на атрибута не съвпада."
+  date: "Полето :attribute не е валидна дата."
+  date_equals: "Полето :attribute трябва да е дата, равна на :date."
+  date_format: "Полето :attribute не съответства на формата :format."
+  different: "Полето :attribute и :other трябва да са различни."
+  digits: "Полето :attribute трябва да бъде :digits цифри."
+  digits_between: "Полето :attribute трябва да бъде между :min и :max цифри."
+  dimensions: "Полето :attribute има невалидни размери на изображението."
+  distinct: "Полето :attribute има дублирана стойност."
+  email: "Полето :attribute трябва да е валиден имейл адрес."
+  ends_with: "Полето :attribute трябва да завършва с едно от следните: :values."
+  exists: "Избраното значение за :attribute е невалидно."
+  file: "Полето :attribute трябва да е файл."
+  filled: "Полето :attribute трябва да има стойност."
+  gt:
+    numeric: "Значението :attribute трябва да е по-голям от :value."
+    file: "Размерът на файла :attribute трябва да е по-голям от :value килобайта."
+    string: "Низът :attribute трябва да е по-голям от :value символа."
+    array: "Масивът :attribute трябва да има повече от :value елемента."
+  gte:
+    numeric: "Значението :attribute трябва да е по-голям или равен на :value."
+    file: "Размерът на файла :attribute трябва да по-голям или равен на :value килобайта."
+    string: "Низът :attribute трябва да бъде по-голям или равен на :value символа."
+    array: "Масивът :attribute трябва да има :value или повече елементи"
+  image: "Полето :attribute трябва да е изображение."
+  in: "Избраното значение за :attribute е невалидно."
+  in_array: "Значението в поле :attribute не съществува в :other."
+  integer: "Полето :attribute трябва да е цяло число."
+  ip: "Полето :attribute трябва да е валиден IP адрес."
+  ipv4: "Полето :attribute трябва да е валиден IPv4 адрес."
+  ipv6: "Полето :attribute трябва да е валиден IPv6 адрес."
+  json: "Полето :attribute трябва да е валиден JSON низ.."
+  lt:
+    numeric: "Значението :attribute трябва да е по-малък от :value."
+    file: "Размерът на файла :attribute трябва да бъде по-малък от :value килобайта."
+    string: "Низът :attribute трябва да бъде по-малък от :value символа."
+    array: "Масивът :attribute трябва да има по-малко :value елемента."
+  lte:
+    numeric: "Значението :attribute трябва да бъде по-малко или равно на :value."
+    file: "Размерът на файла :attribute трябва да бъде по-малък или равен на :value килобайта."
+    string: "Низът :attribute трябва да бъде по-малък или равен на :value символа."
+    array: "Масивът :attribute не трябва да има повече от :value елемента."
+  max:
+    numeric: "Значението :attribute не може да бъде по-голямо от :max."
+    file: "Размерът на файла :attribute не може да бъде по-голям от :max килобайта."
+    string: "Низът :attribute не може да бъде по-голям от :max символа."
+    array: "Масивът :attribute не може да има повече от :max елемента."
+  mimes: "The :attribute трябва да е файл от тип: :values."
+  mimetypes: "The :attribute трябва да е файл от тип: :values."
+  min:
+    numeric: "Значението :трябва да бъде поне :min."
+    file: "Размерът на файла :attribute трябва да бъде най-малко :min килобайта."
+    string: "Низът :attribute трябва да съдържа поне :min символа."
+    array: "Масивът :attribute трябва да има поне :min елемента."
+  not_in: "Избраният :attribute е невалиден."
+  not_regex: "Форматът на полето :attribute е невалиден."
+  numeric: "Значението :attribute трябва да е число."
+  password: "Паролата е неправилна."
+  present: "Полето :attribute трябва да присъства."
+  regex: "Форматът на полето :attribute е невалиден."
+  required: "Полето :attribute е задължително."
+  required_if: "Полето :attribute е задължително, когато :other е :value."
+  required_unless: "Полето :attribute е задължително, освен ако :other е в :values."
+  required_with: "Полето :attribute е задължително, когато :values присъства."
+  required_with_all: "Полето :attribute е задължително, когато :values е налице."
+  required_without: "Полето :attribute е задължително, когато няма :values."
+  required_without_all: "Полето :attribute е задължително, когато няма нито една от :values."
+  same: "Значенията :attribute и :other трябва да съвпадат."
+  size:
+    numeric: "Значението :attribute трябва да бъде :size."
+    file: "Размерът на файла :attribute трябва да бъде :size килобайта."
+    string: "Низът :attribute трябва да бъде :size символа."
+    array: "Масивът :attribute трябва да съдържа :size елемента."
+  starts_with: "Полето :attribute трябва да започва с една от следните: :values."
+  string: "Низът :attribute трябва да е низ."
+  timezone: "Полето :attribute трябва да е валидна зона."
+  unique: "Псевдонимът :attribute вече е взет."
+  uploaded: "Файлът :attribute не успя да се качи."
+  url: "Полето :attribute е с невалиден формат."
+  uuid: "Полето :attribute трябва да бъде a валиден UUID."
+
+  attributes:
+    username: потребителско име
+    password: парола
+    email: email
+    title: заглавие
+    content: съдържание
+    name_singular: единствено име
+    name_plural: множествено име
+    tag_count_primary: брой първични тагове
+    tag_count_secondary: брой вторични тагове
