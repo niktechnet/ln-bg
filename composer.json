@@ -3,7 +3,7 @@
     "type": "flarum-extension",
     "description": "Bulgarian language pack for Flarum",
     "license": "MIT",
-    "homepage": "https://github.com/niktechnet/ln-bg",
+    "homepage": "https://niktechnet.com",
     "keywords": [
         "extension",
         "flarum",
@@ -16,7 +16,7 @@
     "authors": [
         {
             "name": "Nikolay Ivanov",
-            "email": "niktechnet@gmail.com",
+            "email": "ntn@niktechnet.com",
             "homepage": "https://niktechnet.com",
             "role": "Translator"
         }
