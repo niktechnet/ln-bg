@@ -31,4 +31,4 @@ composer update niktechnet/ln-bg
 
 - [Github](https://github.com/niktechnet/ln-bg)
 - [Packagist](https://packagist.org/packages/niktechnet/ln-bg)
-- [niktechnet.com](https://niktechnet.com/d/16-blgarski-ezikov-paket-za-flarum)
+- [niktechnet.com](https://niktechnet.com/)
